@@ -1,0 +1,18 @@
+form label {
+    font-size: 25px;
+    margin: 20px;
+    font-family: 'Gotu', sans-serif;
+
+}
+
+body {
+    background-color: darksalmon;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida SanValor A s Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
