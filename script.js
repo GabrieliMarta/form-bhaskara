@@ -10,8 +10,8 @@ document.getElementById("bhaskaraForm").addEventListener("submit", function(e) {
     if (discriminante < 0) {
         document.getElementById("resultado").innerHTML = "Não há raízes reais.";
     } else {
-        const x1 = (-b + Math.sqrt(discriminante)) / (2 * a);
-        const x2 = (-b - Math.sqrt(discriminante)) / (2 * a);
+        let x1 = (-b + Math.sqrt(discriminante)) / (2 * a);
+        let x2 = (-b - Math.sqrt(discriminante)) / (2 * a);
 
         document.getElementById("resultado").innerHTML = "Raiz 1: " + x1 + "<br>Raiz 2: " + x2;
     }
