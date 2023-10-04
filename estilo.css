@@ -16,3 +16,15 @@ h1 {
     color: black;
     font-family: 'Lucida Sans', 'Lucida SanValor A s Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+#resultado{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 650px;
+    height: 100px;
+    width: 500px;
+    font-family: 'Gotu', sans-serif;
+   background-color: white;
+
+}
+
