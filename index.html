@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <title>Calculadora de Bhaskara</title>
+    <link rel="stylesheet" href="estilo.css">
+  
 </head>
 <body>
     <h1>Calculadora de Bhaskara</h1>
@@ -16,9 +20,10 @@
         <input type="number" id="c" required><br><br>
         
         <input type="submit" value="Calcular">
+
+        <div id="resultado"></div>
     </form>
     
-    <div id="resultado"></div>
 
     <script>
         document.getElementById("bhaskaraForm").addEventListener("submit", function(e) {
@@ -36,9 +41,10 @@
                 const x1 = (-b + Math.sqrt(discriminante)) / (2 * a);
                 const x2 = (-b - Math.sqrt(discriminante)) / (2 * a);
 
-                document.getElementById("resultado").innerHTML = "Raiz 1: " + x1 + "<br>Raiz 2: " + x2;
+                document.getElementById("resultado").innerHTML = `Os valores das Raízes são X1: ${x1.toFixed(1)} <br> e X2: ${x2.toFixed(1)}`;
             }
         });
     </script>
 </body>
 </html>
+
